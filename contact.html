@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <h1>My Personal Contact Information</h1>
+  <hr size="3" color="orange">
+  <p>
+    Email: natalie1997927@gmail.com
+    <br>
+    Phone: (707)727-5056
+  </p>
+  <hr size="1" color="orange">
+  Ask me a question!
+  <form action="mailto:natalie1997927@gmail.com" method="post" enctype="text/plain">
+    <!--form: for user's input; action: takes users to the page after submit; method:post the below info to the action destination;
+   enctype:plain text to prevent 亂碼-->
+    <label for="">Your Name:</label>
+    <input type="text" name="YourName" value="">
+    <!--name attribute:when submit to an email, it will show YourName-->
+    <br>
+    <label for="">Your Email:</label>
+    <input type="email" name="YourEmail" value="">
+    <br>
+    <label for="">Your Message:</label>
+    <br>
+    <textarea name="YourMessage" rows="10" cols="30"></textarea>
+    <input type="submit">
+
+  </form>
+</body>
+
+</html>
