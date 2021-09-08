@@ -1,0 +1,37 @@
+/*TAG selectors*/
+body {
+  background-color: #F8F0DF;
+}
+
+hr {
+  border-color: #CDBBA7;
+  border-width: 6px;
+  border-style: dotted none none;
+  height: 0;
+  width: 30%;
+}
+
+h1{
+  color: #5C3D2E;
+  text-shadow: 2px 2px #DAD0C2
+}
+
+h3{
+  color: #A45D5D;
+  text-shadow: 2px 2px #DAD0C2
+}
+
+a{
+  color: #A45D5D;
+}
+
+/*use ':hover' after the tag: to change properties when hovering your mouse over*/
+a:hover {
+  color: #DF5E5E;
+}
+
+/*class selectors: thats why in index.html line 48 i added 'class'*/
+/*for class selectors, just type '.' in front of the named class*/
+.institutes {
+  color: black;
+}
